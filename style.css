@@ -79,8 +79,8 @@ button {
     margin-top: 10px;
 }
 
-/* Estilo do formulário */
 .formulario {
+    display: none; /* Formulário começa escondido */
     position: fixed;
     top: 30px;
     left: 50%;
@@ -95,21 +95,10 @@ button {
     overflow: auto; /* Para permitir rolagem se o conteúdo for maior que a altura do formulário */
     scrollbar-width:thin;
     background-color: aliceblue;
+
+
 }
 
-/* Estilo quando o formulário é visível */
-#formContainer.show {
-    display: block;
-}
-
-/* Estilo de desfoque do site quando o formulário está aberto */
-body.blur {
-    filter: blur(5px);
-    pointer-events: none;
-    user-select: none;
-}
-
-/* Estilo do botão fechar */
 .botao-fechar {
     position: absolute;
     top: 10px;
