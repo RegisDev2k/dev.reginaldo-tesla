@@ -89,7 +89,6 @@ button {
     height: 85%; /* Altura do formulário */
     z-index: 3;
     transition: 1.5s;
-    display: block;
     text-align: left;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     overflow: auto; /* Para permitir rolagem se o conteúdo for maior que a altura do formulário */
